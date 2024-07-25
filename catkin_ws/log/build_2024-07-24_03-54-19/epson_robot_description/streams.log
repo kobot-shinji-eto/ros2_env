@@ -1,0 +1,24 @@
+[0.899s] Invoking command in '/root/catkin_ws/src/epson_robot_description': PYTHONPATH=/root/catkin_ws/build/epson_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/catkin_ws/install/epson_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/epson_robot_description build --build-base /root/catkin_ws/build/epson_robot_description/build install --record /root/catkin_ws/build/epson_robot_description/install.log --single-version-externally-managed install_data
+[1.216s] running egg_info
+[1.216s] writing ../../build/epson_robot_description/epson_robot_description.egg-info/PKG-INFO
+[1.219s] writing dependency_links to ../../build/epson_robot_description/epson_robot_description.egg-info/dependency_links.txt
+[1.221s] writing entry points to ../../build/epson_robot_description/epson_robot_description.egg-info/entry_points.txt
+[1.221s] writing requirements to ../../build/epson_robot_description/epson_robot_description.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build/epson_robot_description/epson_robot_description.egg-info/top_level.txt
+[1.224s] reading manifest file '../../build/epson_robot_description/epson_robot_description.egg-info/SOURCES.txt'
+[1.225s] writing manifest file '../../build/epson_robot_description/epson_robot_description.egg-info/SOURCES.txt'
+[1.226s] running build
+[1.226s] running build_py
+[1.227s] running install
+[1.227s] running install_lib
+[1.230s] running install_data
+[1.230s] copying launch/display.launch.py -> /root/catkin_ws/install/epson_robot_description/share/epson_robot_description/launch
+[1.230s] copying urdf/epson_robot.gazebo -> /root/catkin_ws/install/epson_robot_description/share/epson_robot_description/urdf
+[1.230s] copying urdf/epson_robot.xacro -> /root/catkin_ws/install/epson_robot_description/share/epson_robot_description/urdf
+[1.230s] copying urdf/epson_robot.trans -> /root/catkin_ws/install/epson_robot_description/share/epson_robot_description/urdf
+[1.230s] running install_egg_info
+[1.230s] removing '/root/catkin_ws/install/epson_robot_description/lib/python3.10/site-packages/epson_robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.231s] Copying ../../build/epson_robot_description/epson_robot_description.egg-info to /root/catkin_ws/install/epson_robot_description/lib/python3.10/site-packages/epson_robot_description-0.0.0-py3.10.egg-info
+[1.240s] running install_scripts
+[1.281s] writing list of installed files to '/root/catkin_ws/build/epson_robot_description/install.log'
+[1.310s] Invoked command in '/root/catkin_ws/src/epson_robot_description' returned '0': PYTHONPATH=/root/catkin_ws/build/epson_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/catkin_ws/install/epson_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/epson_robot_description build --build-base /root/catkin_ws/build/epson_robot_description/build install --record /root/catkin_ws/build/epson_robot_description/install.log --single-version-externally-managed install_data

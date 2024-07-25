@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="epson_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find epson_robot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find epson_robot_description)/urdf/epson_robot.trans" />
+<xacro:include filename="$(find epson_robot_description)/urdf/epson_robot.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.051533247406446075 -6.197772503344635e-05 0.3015975534236119" rpy="0 0 0"/>
+    <mass value="126.71998180805156"/>
+    <inertia ixx="5.160103" iyy="6.252975" izz="1.672625" ixy="0.001555" iyz="-0.002222" ixz="1.947903"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find epson_robot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find epson_robot_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>

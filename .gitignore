@@ -1,0 +1,4 @@
+# catkin_wsのソース以外
+catkin_ws/build
+catkin_ws/install
+catkin_ws/logs
